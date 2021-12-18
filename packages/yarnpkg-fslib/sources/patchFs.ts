@@ -11,6 +11,7 @@ const SYNC_IMPLEMENTATIONS = new Set([
   `createReadStream`,
   `createWriteStream`,
   `chmodSync`,
+  `fchmodSync`,
   `chownSync`,
   `closeSync`,
   `copyFileSync`,
@@ -43,6 +44,7 @@ const SYNC_IMPLEMENTATIONS = new Set([
 const ASYNC_IMPLEMENTATIONS = new Set([
   `accessPromise`,
   `appendFilePromise`,
+  `fchmodPromise`,
   `chmodPromise`,
   `chownPromise`,
   `closePromise`,
@@ -67,7 +69,6 @@ const ASYNC_IMPLEMENTATIONS = new Set([
   `unlinkPromise`,
   `utimesPromise`,
   `writeFilePromise`,
-  `writeSync`,
 ]);
 
 const FILEHANDLE_IMPLEMENTATIONS = new Set([
