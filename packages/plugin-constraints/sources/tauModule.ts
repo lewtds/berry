@@ -152,5 +152,5 @@ const tauModule = new pl.type.Module(`constraints`, {
 export function linkProjectToSession(session: pl.type.Session, project: Project) {
   projects.set(session, project);
 
-  session.consult(`:- use_module(library(${tauModule.id})).`);
+  return session.promiseConsult(`:- use_module(library(${tauModule.id})).`);
 }

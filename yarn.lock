@@ -5829,7 +5829,7 @@ __metadata:
     "@yarnpkg/fslib": "workspace:^"
     clipanion: "npm:^3.2.0-rc.10"
     lodash: "npm:^4.17.15"
-    tau-prolog: "npm:^0.2.66"
+    tau-prolog: "npm:^0.3.2"
     tslib: "npm:^1.13.0"
   peerDependencies:
     "@yarnpkg/cli": "workspace:^"
@@ -8813,10 +8813,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:2.12.2":
-  version: 2.12.2
-  resolution: "commander@npm:2.12.2"
-  checksum: be384d7ab24b488e422d85fb8e48ceb878e258f1effc7d131bbc3657521754e436c41119e2ff5ccca3eb1b6f2341913c374a96c5a66e1b85f0e5fc43f62a9d23
+"commander@npm:7.2.0, commander@npm:^7.1.0":
+  version: 7.2.0
+  resolution: "commander@npm:7.2.0"
+  checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
   languageName: node
   linkType: hard
 
@@ -8838,13 +8838,6 @@ __metadata:
   version: 6.2.1
   resolution: "commander@npm:6.2.1"
   checksum: c52b3cba040d015dc2788bed08041dd2e4734bc79b4ac0e1829544fa09e0844b746b956e9f5f87dee4f62870ab63239f22e2e2d30b242eef392df1501dee319d
-  languageName: node
-  linkType: hard
-
-"commander@npm:^7.1.0":
-  version: 7.2.0
-  resolution: "commander@npm:7.2.0"
-  checksum: 1270a98c752348d62803dd6214bba584a13e5c80e0d32d590740f26c534209882a93daf471697326ad80b3f4f0417df31aca7b127e01efee58fe883b47c1a492
   languageName: node
   linkType: hard
 
@@ -12484,13 +12477,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs@npm:0.0.1-security":
-  version: 0.0.1-security
-  resolution: "fs@npm:0.0.1-security"
-  checksum: 0bb4dbc28772183fed666a8822959607ef515995a01362c8f7204594478a138edd2834ac908fd2745d21a07611a3e5fdd751f822ad38b4166c035011d72b06a7
-  languageName: node
-  linkType: hard
-
 "fsevents@npm:^1.2.7":
   version: 1.2.13
   resolution: "fsevents@npm:1.2.13"
@@ -13619,6 +13605,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"globalyzer@npm:0.1.0":
+  version: 0.1.0
+  resolution: "globalyzer@npm:0.1.0"
+  checksum: e52e064b89ef5a42ce76b92a4919e518c80615c80839f7d214f51c96ce5945308147a422a11c853760fc7a9a41cf8cc8fb7813c5816f2808d8fd4c066d0805a9
+  languageName: node
+  linkType: hard
+
 "globby@npm:11.0.1":
   version: 11.0.1
   resolution: "globby@npm:11.0.1"
@@ -13674,6 +13667,13 @@ __metadata:
     merge2: "npm:^1.3.0"
     slash: "npm:^3.0.0"
   checksum: 06cf586fe73d542a10305487865d0b72f00dba250b72554a08c9ecc49af29a66341aa757f4b23ba7f74a78775094740b2bfb3635b4aad78573d2daf7fbb64861
+  languageName: node
+  linkType: hard
+
+"globrex@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "globrex@npm:0.1.2"
+  checksum: e1f161f0e15cdfc29df57c8d3d8380063e7f0f8ea0322ae5fbec9fe14ebc62fd337d65a2d80a479faade7c7ef079e062eb11586e43016d0b6b5989bd2e7b1d1b
   languageName: node
   linkType: hard
 
@@ -16520,13 +16520,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-reporters@npm:1.2.1":
-  version: 1.2.1
-  resolution: "js-reporters@npm:1.2.1"
-  checksum: d1cc2578c672bb8ebfc96df6da6c81bb0aeb4cf06813110fda95bb59adbcbe05e7176708251ced30ff4082feb060734748d9e6dacca2d731cab45f4e4a9d6ccf
-  languageName: node
-  linkType: hard
-
 "js-tokens@npm:^3.0.0 || ^4.0.0, js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -18938,10 +18931,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-watch@npm:0.6.0":
-  version: 0.6.0
-  resolution: "node-watch@npm:0.6.0"
-  checksum: 7d480a1af34e1dc590cdce3284ccb4f4af6d8716457e2e8a7c9ddde54c2b4fc1776a609e81b3a35dbb87efde74e461b9a406ea6a9b4bd8fe738be80e113a2911
+"node-watch@npm:0.7.3":
+  version: 0.7.3
+  resolution: "node-watch@npm:0.7.3"
+  checksum: f1c93b9527a1bd7ab56edca1fefa4088a48fce3dfc6b1c03afc0f7e58ea84dc3c1b3529b3a475129678a9889bbfabac509f4c72186a2ad5712adda4b26fbd486
   languageName: node
   linkType: hard
 
@@ -21263,18 +21256,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"qunit@npm:^2.8.0":
-  version: 2.9.2
-  resolution: "qunit@npm:2.9.2"
+"qunit@npm:^2.11.1":
+  version: 2.19.1
+  resolution: "qunit@npm:2.19.1"
   dependencies:
-    commander: "npm:2.12.2"
-    js-reporters: "npm:1.2.1"
-    minimatch: "npm:3.0.4"
-    node-watch: "npm:0.6.0"
-    resolve: "npm:1.9.0"
+    commander: "npm:7.2.0"
+    node-watch: "npm:0.7.3"
+    tiny-glob: "npm:0.2.9"
   bin:
     qunit: bin/qunit.js
-  checksum: 821297968fa62ffa060930109a34d7f8f6f3def812d6cbea756c5dba877b8735c2fd4f9c1f06865ffb652665e24bda987048bc757763239c56951bc159fe4da6
+  checksum: d4c97a7d2da2cf439326304f361f469553ea7e907d6308210960cf845a713ada0612e2beec5803b12d765e4bf958de110e499e58e33ccfee09060c03b38b0321
   languageName: node
   linkType: hard
 
@@ -22635,15 +22626,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@npm:1.9.0":
-  version: 1.9.0
-  resolution: "resolve@npm:1.9.0"
-  dependencies:
-    path-parse: "npm:^1.0.6"
-  checksum: d33e75f96855d1291839c6692783c8b1ccc8e8e686a71e294bc78d15511f883ddc563391e60f7dd909ba1f04af6868d2c51cf8c03b4f69b1cad279a37d37a6d7
-  languageName: node
-  linkType: hard
-
 "resolve@npm:^1.1.6, resolve@npm:^1.10.0, resolve@npm:^1.12.0, resolve@npm:^1.14.2, resolve@npm:^1.17.0, resolve@npm:^1.19.0, resolve@npm:^1.20.0, resolve@npm:^1.3.2":
   version: 1.20.0
   resolution: "resolve@npm:1.20.0"
@@ -22661,15 +22643,6 @@ __metadata:
     is-core-module: "npm:^2.2.0"
     path-parse: "npm:^1.0.6"
   checksum: d6207b99d44b74ff6ac1e1e2f5226c1c8005af3cdb8ad598b7ceed447f34638b3ab5c800b4ebaf4bbb5cb1afc2ec5fa663e488ebb13635550bbe33d40169947d
-  languageName: node
-  linkType: hard
-
-"resolve@patch:resolve@npm%3A1.9.0#optional!builtin<compat/resolve>":
-  version: 1.9.0
-  resolution: "resolve@patch:resolve@npm%3A1.9.0#optional!builtin<compat/resolve>::version=1.9.0&hash=07638b"
-  dependencies:
-    path-parse: "npm:^1.0.6"
-  checksum: df26fb01a5caa45a13682fa416a61cab364e89505166696dee1b42f4cd73b8f05185e171adb015edfbb7b67df8502e4d93d7b9304470f148cf775844e192f058
   languageName: node
   linkType: hard
 
@@ -24658,14 +24631,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tau-prolog@npm:^0.2.66":
-  version: 0.2.66
-  resolution: "tau-prolog@npm:0.2.66"
+"tau-prolog@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "tau-prolog@npm:0.3.2"
   dependencies:
-    fs: "npm:0.0.1-security"
-    qunit: "npm:^2.8.0"
+    qunit: "npm:^2.11.1"
     readline-sync: "npm:1.4.9"
-  checksum: 7fff5753a6c08f9adec79ee95c516ea3984ec462d1c38224122ccf7ca396363d5a77da9028fc4f38eea20bcff589ac76eb76967f13ed93b34f6ef79436c8e85e
+  checksum: e87603f1a8b274aefbf58d83cc703e5018db0b49ce4737a9c903437bfd4c0b2e9a2ddd2d445afeb909b8fde32e7a3885919bcffe0aaeab4017da5c5049e82f57
   languageName: node
   linkType: hard
 
@@ -24866,6 +24838,16 @@ __metadata:
   version: 2.1.0
   resolution: "tiny-emitter@npm:2.1.0"
   checksum: 3b905925cfa3f75302be0f324d2d7c1cf563c09304bbd40bf38c3abf3b8a93f2f2aa3a2e4b099400a9a1f44bc087fab42800314e8a5ea71cb81bc91ea2d8f1bc
+  languageName: node
+  linkType: hard
+
+"tiny-glob@npm:0.2.9":
+  version: 0.2.9
+  resolution: "tiny-glob@npm:0.2.9"
+  dependencies:
+    globalyzer: "npm:0.1.0"
+    globrex: "npm:^0.1.2"
+  checksum: 41f9a38124164bda6a2149f951e046c555a508ce22cbad2d08b7d4066622faa6933feae503c647815342b9e461ffc93cf7e41b28e835030480b081e000b1caf7
   languageName: node
   linkType: hard
 

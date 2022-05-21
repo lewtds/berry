@@ -161,12 +161,20 @@ declare module 'tau-prolog' {
 
         public consult(program: string): void;
 
+        public promiseConsult(program: string): Promise<void>;
+
         public query(query: string): true | Term<1, 'throw'>;
+
+        public promiseQuery(query: string): Promise<void>;
 
         public answer(callback: (answer: Answer) => void): void;
 
+        public promiseAnswer(): Promise<Answer | void>;
+
         public answers(callback: (answer: Answer) => void, maxCount?: number, after?: () => void):
         void;
+
+        public promiseAnswers(): Promise<Answer[]>;
 
         public add_rule(rule: Rule, options?: {from?: string}): true;
 
@@ -278,4 +286,12 @@ declare module 'tau-prolog' {
   }
 
   export = tau;
+}
+
+declare module 'tau-prolog/modules/lists' {
+  export = (_: tau) => tau;
+}
+
+declare module 'tau-prolog/modules/promises' {
+  export = (_: tau) => tau;
 }
