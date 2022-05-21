@@ -3,13 +3,14 @@
 import {Ident, MessageName, Project, ReportError, Workspace} from '@yarnpkg/core';
 import {miscUtils, structUtils}                              from '@yarnpkg/core';
 import {xfs, ppath, PortablePath}                            from '@yarnpkg/fslib';
-// @ts-expect-error
 import plLists                                               from 'tau-prolog/modules/lists';
+import plPromises                                            from 'tau-prolog/modules/promises';
 import pl                                                    from 'tau-prolog';
 
 import {linkProjectToSession}                                from './tauModule';
 
 plLists(pl);
+plPromises(pl);
 
 export type EnforcedDependency = {
   workspace: Workspace;
@@ -99,38 +100,38 @@ function extractError(val: any) {
 class Session {
   private readonly session: pl.type.Session;
 
-  public constructor(project: Project, source: string) {
+  public constructor(readonly project: Project, readonly source: string) {
     this.session = pl.create();
-    linkProjectToSession(this.session, project);
-
-    this.session.consult(`:- use_module(library(lists)).`);
-    this.session.consult(source);
   }
 
-  private fetchNextAnswer() {
-    return new Promise<pl.Answer>(resolve => {
-      this.session.answer((result: any) => {
-        resolve(result);
-      });
-    });
+  public async init() {
+    try {
+      await linkProjectToSession(this.session, this.project);
+      await this.session.promiseConsult(`:- use_module(library(lists)).`);
+      await this.session.promiseConsult(this.source);
+    } catch (e) {
+      throw extractError(e);
+    }
   }
 
   public async * makeQuery(query: string) {
-    const parsed = this.session.query(query);
-
-    if (parsed !== true)
-      throw extractError(parsed);
+    try {
+      await this.session.promiseQuery(query);
+    } catch (e) {
+      throw extractError(e);
+    }
 
     while (true) {
-      const answer = await this.fetchNextAnswer();
+      try {
+        const answer = await this.session.promiseAnswer();
 
-      if (!answer)
-        break;
+        if (!answer)
+          break;
 
-      if (answer.id === `throw`)
-        throw extractError(answer);
-
-      yield answer;
+        yield answer;
+      } catch (error) {
+        throw extractError(error);
+      }
     }
   }
 }
@@ -227,12 +228,15 @@ export class Constraints {
     return `${this.getProjectDatabase()}\n${this.source}\n${this.getDeclarations()}`;
   }
 
-  private createSession() {
-    return new Session(this.project, this.fullSource);
+  private async createSession() {
+    console.log("creating session with full source");
+    const session = new Session(this.project, this.fullSource);
+    await session.init();
+    return session;
   }
 
   async process() {
-    const session = this.createSession();
+    const session = await this.createSession();
 
     return {
       enforcedDependencies: await this.genEnforcedDependencies(session),
@@ -288,7 +292,7 @@ export class Constraints {
   }
 
   async * query(query: string) {
-    const session = this.createSession();
+    const session = await this.createSession();
 
     for await (const answer of session.makeQuery(query)) {
       const parsedLinks: Record<string, string | null> = {};
