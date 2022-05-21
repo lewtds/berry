@@ -11538,7 +11538,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11562,7 +11562,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11586,7 +11586,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11610,7 +11610,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11634,7 +11634,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11658,7 +11658,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11682,7 +11682,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11706,7 +11706,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11730,7 +11730,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11754,7 +11754,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11778,7 +11778,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11802,7 +11802,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11826,7 +11826,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11850,7 +11850,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11874,7 +11874,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11898,7 +11898,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11922,7 +11922,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11946,7 +11946,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11970,7 +11970,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "packagePeers": [\
@@ -11992,7 +11992,7 @@ const RAW_RUNTIME_STATE =
           ["@yarnpkg/fslib", "workspace:packages/yarnpkg-fslib"],\
           ["clipanion", "virtual:576bf3e379b293160348e4cadfbd6541796e6f78477b0875c4437065090cec6f78b6ec2281b8e15d1c870d61578dc7dee16a5ae49a65701fec83e592ce2ebdeb#npm:3.2.0-rc.10"],\
           ["lodash", "npm:4.17.21"],\
-          ["tau-prolog", "npm:0.2.66"],\
+          ["tau-prolog", "npm:0.3.2"],\
           ["tslib", "npm:1.13.0"]\
         ],\
         "linkType": "SOFT"\
@@ -23375,13 +23375,6 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["commander", [\
-      ["npm:2.12.2", {\
-        "packageLocation": "./.yarn/cache/commander-npm-2.12.2-706db8a305-be384d7ab2.zip/node_modules/commander/",\
-        "packageDependencies": [\
-          ["commander", "npm:2.12.2"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:2.17.1", {\
         "packageLocation": "./.yarn/cache/commander-npm-2.17.1-08eb1c40fa-07e4c5d575.zip/node_modules/commander/",\
         "packageDependencies": [\
@@ -27659,15 +27652,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["fs", [\
-      ["npm:0.0.1-security", {\
-        "packageLocation": "./.yarn/cache/fs-npm-0.0.1-security-5060b47e87-0bb4dbc287.zip/node_modules/fs/",\
-        "packageDependencies": [\
-          ["fs", "npm:0.0.1-security"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["fs-constants", [\
       ["npm:1.0.0", {\
         "packageLocation": "./.yarn/cache/fs-constants-npm-1.0.0-59576b2177-fc080f48ee.zip/node_modules/fs-constants/",\
@@ -29366,6 +29350,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["globalyzer", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "./.yarn/cache/globalyzer-npm-0.1.0-3982d25961-e52e064b89.zip/node_modules/globalyzer/",\
+        "packageDependencies": [\
+          ["globalyzer", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["globby", [\
       ["npm:10.0.2", {\
         "packageLocation": "./.yarn/cache/globby-npm-10.0.2-9b274c88d3-93a9f3d919.zip/node_modules/globby/",\
@@ -29418,6 +29411,15 @@ const RAW_RUNTIME_STATE =
           ["ignore", "npm:5.1.9"],\
           ["merge2", "npm:1.3.0"],\
           ["slash", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["globrex", [\
+      ["npm:0.1.2", {\
+        "packageLocation": "./.yarn/cache/globrex-npm-0.1.2-ddda94f2d0-e1f161f0e1.zip/node_modules/globrex/",\
+        "packageDependencies": [\
+          ["globrex", "npm:0.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -32643,15 +32645,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["js-reporters", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "./.yarn/cache/js-reporters-npm-1.2.1-f6033336ba-d1cc2578c6.zip/node_modules/js-reporters/",\
-        "packageDependencies": [\
-          ["js-reporters", "npm:1.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["js-tokens", [\
       ["npm:4.0.0", {\
         "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-47d1c18dc6.zip/node_modules/js-tokens/",\
@@ -35342,10 +35335,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-watch", [\
-      ["npm:0.6.0", {\
-        "packageLocation": "./.yarn/cache/node-watch-npm-0.6.0-6177998c2f-7d480a1af3.zip/node_modules/node-watch/",\
+      ["npm:0.7.3", {\
+        "packageLocation": "./.yarn/cache/node-watch-npm-0.7.3-5d3299c276-f1c93b9527.zip/node_modules/node-watch/",\
         "packageDependencies": [\
-          ["node-watch", "npm:0.6.0"]\
+          ["node-watch", "npm:0.7.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -38303,15 +38296,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["qunit", [\
-      ["npm:2.9.2", {\
-        "packageLocation": "./.yarn/cache/qunit-npm-2.9.2-b081f07b66-821297968f.zip/node_modules/qunit/",\
+      ["npm:2.19.1", {\
+        "packageLocation": "./.yarn/cache/qunit-npm-2.19.1-9440affd19-d4c97a7d2d.zip/node_modules/qunit/",\
         "packageDependencies": [\
-          ["qunit", "npm:2.9.2"],\
-          ["commander", "npm:2.12.2"],\
-          ["js-reporters", "npm:1.2.1"],\
-          ["minimatch", "npm:3.0.4"],\
-          ["node-watch", "npm:0.6.0"],\
-          ["resolve", "patch:resolve@npm%3A1.9.0#optional!builtin<compat/resolve>::version=1.9.0&hash=07638b"]\
+          ["qunit", "npm:2.19.1"],\
+          ["commander", "npm:7.2.0"],\
+          ["node-watch", "npm:0.7.3"],\
+          ["tiny-glob", "npm:0.2.9"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -40064,14 +40055,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["resolve", "patch:resolve@npm%3A1.20.0#optional!builtin<compat/resolve>::version=1.20.0&hash=07638b"],\
           ["is-core-module", "npm:2.6.0"],\
-          ["path-parse", "npm:1.0.6"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["patch:resolve@npm%3A1.9.0#optional!builtin<compat/resolve>::version=1.9.0&hash=07638b", {\
-        "packageLocation": "./.yarn/cache/resolve-patch-6aeae11fee-df26fb01a5.zip/node_modules/resolve/",\
-        "packageDependencies": [\
-          ["resolve", "patch:resolve@npm%3A1.9.0#optional!builtin<compat/resolve>::version=1.9.0&hash=07638b"],\
           ["path-parse", "npm:1.0.6"]\
         ],\
         "linkType": "HARD"\
@@ -42304,12 +42287,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tau-prolog", [\
-      ["npm:0.2.66", {\
-        "packageLocation": "./.yarn/cache/tau-prolog-npm-0.2.66-b5d2420a05-7fff5753a6.zip/node_modules/tau-prolog/",\
+      ["npm:0.3.2", {\
+        "packageLocation": "./.yarn/cache/tau-prolog-npm-0.3.2-9302ba7af7-e87603f1a8.zip/node_modules/tau-prolog/",\
         "packageDependencies": [\
-          ["tau-prolog", "npm:0.2.66"],\
-          ["fs", "npm:0.0.1-security"],\
-          ["qunit", "npm:2.9.2"],\
+          ["tau-prolog", "npm:0.3.2"],\
+          ["qunit", "npm:2.19.1"],\
           ["readline-sync", "npm:1.4.9"]\
         ],\
         "linkType": "HARD"\
@@ -42556,6 +42538,17 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/tiny-emitter-npm-2.1.0-2a4d94f487-3b905925cf.zip/node_modules/tiny-emitter/",\
         "packageDependencies": [\
           ["tiny-emitter", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tiny-glob", [\
+      ["npm:0.2.9", {\
+        "packageLocation": "./.yarn/cache/tiny-glob-npm-0.2.9-068f4ab3f8-41f9a38124.zip/node_modules/tiny-glob/",\
+        "packageDependencies": [\
+          ["tiny-glob", "npm:0.2.9"],\
+          ["globalyzer", "npm:0.1.0"],\
+          ["globrex", "npm:0.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
